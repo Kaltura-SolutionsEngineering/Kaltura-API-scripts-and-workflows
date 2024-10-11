@@ -71,7 +71,7 @@ The API response will look something like this:
 ```
 We will use the 'id' for this newly created flavorAsset container in the next step to add the actual AD file to the container.
 
-3. So at this point we have the original audio track as standalone as well as a container to hold the AD track.  Let's add the AD file to the container.  We'll use the [flavorAsset.setContent() API call](https://developer.kaltura.com/api-docs/service/flavorAsset/action/setContent) to do so.  There are multiple options of how to ingest the file, but we'll look at two options: uploadTokens and urlResources.  For more information on using uploadTokens to upload content to Kaltura, see [link].
+3. So at this point we have the original audio track as standalone as well as a container to hold the AD track.  Let's add the AD file to the container.  We'll use the [flavorAsset.setContent() API call](https://developer.kaltura.com/api-docs/service/flavorAsset/action/setContent) to do so.  There are multiple options of how to ingest the file, but we'll look at two options: uploadTokens and urlResources.  For more information on using uploadTokens to upload content to Kaltura, see https://github.com/Kaltura-SolutionsEngineering/Kaltura-API-scripts-and-workflows/tree/main/Uploading%20Assets%20via%20uploadTokens.
    - Example code snippet (PHP) for setting the Audio Description file to the flavorAsset using an upload token resource:
    ```php
    $id = "1_bdbu5pfp";
